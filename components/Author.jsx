@@ -13,13 +13,13 @@ const Author = ({ author }) => {
           width='100px'
           className='align-middle rounded-full'
         />
-        <h3 className="text-white my-4 text-xl font-bold">
+      </div>
+      <h3 className="text-white my-4 text-xl font-bold">
           {author.author_name}
         </h3>
         <p className="text-white text-lg">
           {author.bio}
         </p>
-      </div>      
     </div>
   )
 }
