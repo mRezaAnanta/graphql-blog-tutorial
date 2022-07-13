@@ -18,7 +18,7 @@ const PostCard = ({ post }) => {
           {post.post_title} 
         </Link>
       </h1>
-      <div className="block lg:flex text-center items-center justify-center mb-8 w-full">
+      <div className="block lg:flex text-center items-center justify-center mb-8 w-full" key={post.author.author_name}>
         <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto">
           <img 
             src= {post.author.author_photo.url}
